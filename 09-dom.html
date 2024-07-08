@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document Object Model practice</title>
+</head>
+
+<body>
+    <button class="js-button">Second button</button>
+
+    <button>hello</button>
+
+    <script>
+        console.log(document.querySelector('button'));
+        console.log(document.title);
+
+
+        document.body.innerHTML = 'hello';
+        document.title = 'Good job!';
+        console.log(document.body);
+
+        document.body.innerHTML = '<button>Good job!</button>'
+        console.log(document.querySelector('.js-button'));
+
+
+    </script>
+</body>
+
+</html>

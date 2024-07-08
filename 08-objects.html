@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>Objects</title>
+
+
+</head>
+
+<body>
+    <script>
+        console.log(localStorage.getItem('score'));
+        const product1 = {
+            name: 'kamal',
+            age: 20,
+            reting: {
+                a: 5,
+                b: 'kamal'
+
+
+            },
+            fun: function fincion1() {
+                console.log(5);
+
+
+            }
+        };
+
+        console.log(JSON.stringify(product1));
+        JSON.parse(JSON.stringify(product1));
+        localStorage.setItem('score', JSON.stringify(5));
+
+    </script>
+</body>
+
+</html>
